@@ -1,0 +1,133 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background-color: #cccccc;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    display: grid;
+    place-items: center;
+}
+
+.desktop-container {
+    background-color: #ffffff;
+    width: 1200px;
+    height: 800px;
+    border-radius: 16px;
+    display: flex;
+}
+
+.image-container {
+    width: 724px;
+    height: 800px;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 16px;
+    border-top-left-radius: 16px;
+}
+
+.icon {
+    padding-top: 42px;
+}
+
+.login-container {
+    max-width: 476px;
+    width: 100%;
+}
+
+.login-content {
+    margin-left: 48px;
+    margin-right: 48px;
+}
+
+.title {
+    margin: 0;
+    padding-bottom: 40px;
+    padding-top: 128px;
+    color: #191B1E;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.input-content{
+    display: flex;
+    height: 56px;
+    padding: 0 16px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #D5D5D5;;
+}
+
+.input-content:nth-child(1){
+    margin-bottom: 24px;
+}
+
+.input-content:nth-child(2){
+    margin-bottom: 16px;
+}
+
+.Password-Forged {
+    margin: 0;
+    color: var(--primary, #007AFF);
+    text-align: right;
+    font-family: var(--Family, Ubuntu);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 40px;
+}
+
+.button{
+    display: flex;
+    height: 52px;
+    padding: 0 16px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 52px;
+    background: #007AFF;
+    width: 100%;
+    border: none;
+    color: #ffffff;
+}
+
+.links-container{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.account{
+    color: var(--text-subtle, #737A86);
+    font-family: var(--Family, Ubuntu);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.create {
+    color: var(--primary, #007AFF);
+    text-align: right;
+    font-family: var(--Family, Ubuntu);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
